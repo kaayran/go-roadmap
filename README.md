@@ -8,6 +8,7 @@ Personal cheat-sheet and reference for learning Go, coming from a C++/C# gamedev
 - [dev-tooling.md](docs/dev-tooling.md) — development tools: what to install, what to use and when
 - [pet-project-roadmap.md](docs/pet-project-roadmap.md) — project ideas by level, from warm-up to senior signal
 - [proj-structure.md](docs/proj-structure.md) — module anatomy, project archetypes, layered architecture
+- [vscode-rider-setup.md](docs/vscode-rider-setup.md) — make VS Code look and feel like JetBrains Rider (cross-OS)
 
 ## Tools
 
