@@ -1,0 +1,127 @@
+# =============================================================================
+# Go
+# =============================================================================
+
+# binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+
+# test & coverage
+*.test
+*.out
+coverage.out
+coverage.html
+
+# profiling (pprof)
+*.prof
+cpu.prof
+mem.prof
+trace.out
+
+# build cache (usually not committed)
+/vendor/
+
+# workspace sum (go.work.sum is machine-local)
+go.work.sum
+
+# =============================================================================
+# IDEs
+# =============================================================================
+
+# JetBrains (GoLand, IntelliJ)
+.idea/
+
+# VS Code
+.vscode/
+# un-ignore these if you want to share project settings with the team:
+# !.vscode/settings.json
+# !.vscode/extensions.json
+
+# Vim / Neovim
+*.swp
+*.swo
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+Session.vim
+.netrwhist
+.nvim.lua
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-workspace
+
+# Zed
+.zed/
+
+# Helix
+.helix/
+
+# =============================================================================
+# AI agents
+# =============================================================================
+
+# Cursor — ignore local rules, un-ignore if you want to share project rules:
+.cursor/
+# !.cursor/rules
+
+# Aider
+.aider*
+.aider.tags.cache.v*/
+
+# Continue (VS Code extension)
+.continue/
+
+# Claude Code — local settings are personal, project settings can be tracked:
+.claude/settings.local.json
+# to track project-level Claude settings, un-ignore:
+# !.claude/settings.json
+# !.claude/CLAUDE.md
+
+# GitHub Copilot
+.github/copilot-instructions.md.bak
+
+# Windsurf / Cascade
+.windsurf/
+
+# =============================================================================
+# OS
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# =============================================================================
+# Environment & secrets
+# =============================================================================
+
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.yaml
+secrets.yml
+
+# =============================================================================
+# Per-project additions (add below this line)
+# =============================================================================
