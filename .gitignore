@@ -1,0 +1,28 @@
+# IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+.zed/
+.helix/
+*.swp
+*.swo
+*~
+
+# AI agents (local settings)
+.cursor/
+.aider*
+.continue/
+.claude/settings.local.json
+.windsurf/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# env & secrets
+.env
+.env.local
+*.pem
+*.key
