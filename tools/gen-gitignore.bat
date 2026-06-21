@@ -8,7 +8,7 @@ if not exist "!TEMPLATE!" (
 )
 
 if exist ".gitignore" (
-    set /p OVERWRITE=.gitignore already exists. overwrite? (y/n):
+    set /p OVERWRITE=.gitignore already exists. overwrite? [y/n]:
     if /i not "!OVERWRITE!"=="y" ( echo cancelled. & exit /b 0 )
 )
 
